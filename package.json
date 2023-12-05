@@ -1,5 +1,5 @@
 {
-  "name": "@rawgraphs/rawgraphs-core",
+  "name": "@weiwhy/rawgraphs-core",
   "version": "1.0.0-beta.17",
   "description": "RAWGRAPHS core library",
   "jsdelivr": "lib/index.umd.js",
