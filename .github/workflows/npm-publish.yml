@@ -4,9 +4,7 @@
 name: Publish on private NPM registry
 
 on:
-  push:
-    tags:
-      - v*
+  workflow_dispatch:
     
 jobs:
   publish-npm:
