@@ -18,25 +18,25 @@ import omitBy from "lodash/omitBy"
 export let baseOptions = {
   width: {
     type: "number",
-    label: "Width (px)",
+    label: "宽度 (px)",
     default: 805,
     container: "width",
-    group: "artboard",
+    group: "画布",
   },
 
   height: {
     type: "number",
-    label: "Height (px)",
+    label: "高度 (px)",
     default: 600,
     container: "height",
-    group: "artboard",
+    group: "画布",
   },
 
   background: {
     type: "color",
     label: "Background",
     default: "#FFFFFF",
-    group: "artboard",
+    group: "画布",
   },
 }
 
