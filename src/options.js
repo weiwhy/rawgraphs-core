@@ -19,7 +19,7 @@ export let baseOptions = {
   width: {
     type: "number",
     label: "宽度 (px)",
-    default: 805,
+    default: 1020,
     container: "width",
     group: "画布",
   },
@@ -27,14 +27,14 @@ export let baseOptions = {
   height: {
     type: "number",
     label: "高度 (px)",
-    default: 600,
+    default: 768,
     container: "height",
     group: "画布",
   },
 
   background: {
     type: "color",
-    label: "Background",
+    label: "背景颜色",
     default: "#FFFFFF",
     group: "画布",
   },
